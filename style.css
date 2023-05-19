@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    padding: 0;
+    margin:0 ;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(#2E3192 , #1BFFFF);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+body h2{
+    color: rgb(232, 248, 10);
+    font-size: 35px;
+    letter-spacing: 1px;padding-bottom: 20px;
+}
+
+.container1{
+    display: flex;
+}
+
+.ap{
+    height: 200px;
+}
+
+.container{
+    width: 420px;
+    background: rgb(216, 212, 212);
+    border-radius: 10px;
+    box-shadow: 0 10px 10px #2E3192 ;
+}
+
+.wrapper{
+    width: 100%;
+    margin: 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0 20px;
+}
+
+.clock{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 28px;
+    padding: 5px;
+}
+
+.clock label{
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.hours, .minutes, .seconds{
+    padding: 10px;
+    width: 70px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px rgb(100, 95, 95);
+    background: #e2e6e6;
+}
